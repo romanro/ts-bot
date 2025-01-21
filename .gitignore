@@ -1,0 +1,66 @@
+# Node.js зависимости
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# TypeScript файлы сборки
+dist/
+build/
+out/
+tsconfig.tsbuildinfo
+
+# Логи и временные файлы
+*.log
+*.out
+*.pid
+*.pid.lock
+logs/
+pids/
+dump/
+
+# Файлы среды разработки
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Эксперименты и зависимости
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Кеши и зависимости
+.npm/
+.eslintcache
+.cache/
+coverage/
+.babelrc
+
+# Бандлы (если используете Webpack, Rollup и пр.)
+*.bundle.js
+*.min.js
+*.map
+
+# Папки CI/CD
+.nyc_output/
+.jest/
+.next/
+.nuxt/
+out/
+
+# Локальные файлы окружения и конфигурации ОС
+Thumbs.db
+desktop.ini
+
+# PM2 процесс менеджер
+pm2-log.log
+pm2.pid
